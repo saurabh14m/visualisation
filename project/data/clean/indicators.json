@@ -1,0 +1,74 @@
+{
+  "Resident Population": {
+    "1990": "AGE010190D",
+    "2000": "AGE010200D",
+    "2010": "AGE010210D",
+    "1980": "AGE010180D"
+  },
+  "Married Family Households": {
+    "1990": "HSD130190D",
+    "2000": "HSD130200D",
+    "2010": "HSD130210D",
+    "1980": "HSD130180D"
+  },
+  "White Population": {
+    "1990": "POP210190D",
+    "2000": "POP210200D",
+    "2010": "POP210210D",
+    "1980": "POP210180D"
+  },
+  "Hispanic Population": {
+    "1990": "HIS020190D",
+    "2000": "HIS020200D",
+    "2010": "HIS020210D",
+    "1980": "HIS020180D"
+  },
+  "Persons 25 Years and Over": {
+    "1990": "EDU600190D",
+    "2000": "EDU600200D",
+    "2010": "EDU600210D",
+    "1980": "EDU600180D"
+  },
+  "Education Attainment": {
+    "1990": "EDU640190D",
+    "2000": "EDU640200D",
+    "2010": "EDU640210D",
+    "1980": "EDU640180D"
+  },
+  "Persons Below Poverty Line": {
+    "1990": "PVY020190D",
+    "2000": "PVY020200D",
+    "2010": "PVY020210D",
+    "1980": "PVY020180D"
+  },
+  "Median Household Income": {
+    "1990": "INC610190D",
+    "2000": "INC610200D",
+    "2010": "INC610210D",
+    "1980": "INC610180D"
+  },
+  "Female Population": {
+    "1990": "POP160190D",
+    "2000": "POP160200D",
+    "2010": "POP160210D",
+    "1980": "POP160180D"
+  },
+  "African American Population": {
+    "1990": "POP240190D",
+    "2000": "POP240200D",
+    "2010": "POP240210D",
+    "1980": "POP240180D"
+  },
+  "Male Population": {
+    "1990": "POP150190D",
+    "2000": "POP150200D",
+    "2010": "POP150210D",
+    "1980": "POP150180D"
+  },
+  "Civilian Labour Force": {
+    "1990": "CLF010190D",
+    "2000": "CLF010200D",
+    "2010": "CLF010210D",
+    "1980": "CLF010180D"
+  }
+}
