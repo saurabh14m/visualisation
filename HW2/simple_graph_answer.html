@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Homework 2 Graph</title>
+<style>
+  .link {
+    stroke: black;
+    stroke-width: 1.5px;
+  }
+
+  .node {
+    fill: #66CC66;
+    stroke: #000;
+    stroke-width: 1px;
+	}
+
+  .node:hover {
+	fill: red;
+  }
+  
+</style>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+  <form>
+  Layout:
+	<label><input type="radio" name="layout" value="Forced Layout" checked> Forced Layout</label>
+    <label><input type="radio" name="layout" value="Index Based"> Index Based</label>
+	<label><input type="radio" name="layout" value="Time Scale"> Time Scale</label>
+  </form>
+  <form>
+  Color:
+    <label><input type="radio" name="color" value="nocolor" checked> None</label>
+	<label><input type="radio" name="color" value="color_author"> Author</label>
+    <label><input type="radio" name="color" value="color_branch"> Branch</label>
+  </form>
+  <form>
+<script>
+
+var width = 1500,
+    height = 700;
+
+var fill = d3.scale.category10();
+
+var graph = {nodes:[], links:[]};
+
+var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+			
+	svg.append("svg:defs").selectAll("marker")
+		.data(["end"])
+		.enter()
+		.append("svg:marker")
+		.attr("id", String)
+		.attr("viewBox", "0 -5 10 10")
+		.attr("refX", 15)
+		.attr("refY", -1.5)
+		.attr("markerWidth", 6)
+		.attr("markerHeight", 6)
+		.attr("orient", "auto")
+		.append("svg:path")
+		.attr("d", "M0,-5L10,0L0,5");
+
+var col_user = false;
+
+d3.json("http://localhost:8000/data_1.json", function(error, data){
+	
+	for (branch in data){
+
+		var list = []
+		
+		data[branch].map(function(d, i){
+			graph.nodes.push({
+				"id": i,
+				"branch": branch,
+				"sha": d.sha,
+				"author": d.commit.author.name,
+				"email": d.commit.author.email,
+				"date": new Date(d.commit.author.date),
+				"message": d.commit.message
+			})
+					
+			d.parents.map(function(e, j){
+				graph.links.push({
+					"target": d.sha,
+					"source": e.sha,
+				})
+			})
+		})
+	}
+	
+	graph.links.map(function(d, i){
+		graph.nodes.map(function(e, j){		
+			if(d.target == e.sha){
+				d.target = e.id
+			}
+			if(d.source == e.sha){
+				d.source = e.id
+			}
+		})
+		if(typeof d.source != "number"){
+			d.source = d.target
+		}
+	})
+		
+	Array.prototype.contains = function(k){
+		for(var p in this)
+			if(this[p] === k)
+				return true;
+		return false;
+	}
+	
+	graph.nodes.map(function(d, i){
+		if(list.contains(d.author) == false){
+			list.push(d.author)
+		}
+	})
+		
+	var index_scale = d3.scale.linear()
+						.range([0, 1000])
+						.domain([0, d3.max(graph.nodes, function(d){return d.id;})]);
+
+	var time_scale = d3.time.scale()
+						.range([0, 1000])
+						.domain([d3.max(graph.nodes, function(d){return d.date;}), d3.min(graph.nodes, function(d){return d.date;})]);
+
+	// Generate the force layout
+	var force = d3.layout.force()
+		.size([width, height])
+		.charge(-50)
+		.linkDistance(100)
+		.on("tick", tick)
+		.on("start", function(d){
+		})
+		.on("end", function(d){
+		});
+
+	function tick(d){
+		graph_update(0);
+	}
+
+	function force_layout(){
+		force.nodes(graph.nodes)
+			.links(graph.links)
+			.start();
+	}
+	
+	function index_line_layout(){	
+		
+		force.stop();
+		
+		graph.nodes.forEach(function(d, i){
+			d.x = 110 + index_scale(d.id),
+			
+			list.map(function(e, j){
+				if(d.author == e){
+					d.y = 100 + j * 25;
+				}
+			})
+		})
+		
+		creat_labels();
+
+		graph_update(500);
+	}
+	
+	function time_line_layout(){
+	
+		force.stop();
+		
+		graph.nodes.forEach(function(d, i){
+			d.x = 110 + time_scale(d.date),
+			
+			list.map(function(e, j){
+				if(d.author == e){
+					d.y = 100 + j * 25;
+				}
+			})
+		})
+		
+		creat_labels();
+
+		graph_update(500);
+	}
+
+	function graph_update(delay){
+	
+		link.transition().duration(delay)
+			.attr("x1", function(d){ 
+				return d.target.x; 
+			})
+			.attr("y1", function(d){ 
+				return d.target.y; 
+			})
+			.attr("x2", function(d){ 
+				return d.source.x; 
+			})
+			.attr("y2", function(d){ 
+				return d.source.y; 
+			});
+
+		node.transition().duration(delay)
+			.attr("transform", function(d){ 
+				return "translate(" + d.x + "," + d.y + ")"; 
+			});
+	}
+
+	d3.select("input[value=\"Forced Layout\"]").on("click", force_layout);
+	d3.select("input[value=\"Index Based\"]").on("click", index_line_layout);
+	d3.select("input[value=\"Time Scale\"]").on("click", time_line_layout);
+	d3.select("input[value=\"color_author\"]").on("click", author_color);
+	d3.select("input[value=\"color_branch\"]").on("click", branch_color);
+	d3.select("input[value=\"nocolor\"]").on("click", function(){
+		d3.selectAll("circle").transition().duration(500).style("fill", "#66CC66");
+	})
+	
+	function author_color(){
+	
+		col_user = true;
+		
+		d3.selectAll("circle")
+			.transition()
+			.duration(500)
+			.style("fill", function(d){ 
+				return fill(d.author); 
+			});
+	}
+	
+	function branch_color(){
+	
+		col_user = false;
+		
+		d3.selectAll("circle")
+			.transition()
+			.duration(500)
+			.style("fill", function(d){ 
+				return fill(d.branch); 
+			});
+	}
+		
+	force_layout();
+		
+	var line = d3.svg.line()
+				  .x(function(d){return d.x;})
+				  .y(function(d){return d.y;})
+				  .interpolate("linear");
+	
+	var node = svg.selectAll(".node")
+				.data(graph.nodes)
+				.enter()
+				.append("g")
+				.attr("class", "node")
+				.text(function(d){return d.author})
+				.on("mouseover", function(d){
+				
+					var info = d3.select(this).append('text')
+								.classed('info', true)
+								.attr('x', d.x + 10)
+								.attr('y', d.y + 10)
+								.style("opacity", 1.0)
+								.text(function(d){return d.author + " " + d.message});
+				})
+				.on("mouseout", function(){
+					d3.select(this).select('text.info').remove();
+				})
+				.append("circle")
+				.attr("r", 7.5)
+				.style("fill", function(d){ 
+							return fill(d.author); 
+						})
+				.on("mouseover", function(){
+					d3.select(this).transition()
+						.duration(100)
+						.style("fill", "red")
+						.attr("r", 17.5);
+				})
+				.on("mouseout", function(){
+					d3.select(this).transition()
+						.duration(100)
+						.style("fill", function(d){ 
+							return col_user == true ? fill(d.author) : fill(d.branch); 
+						})
+						.attr("r", 7.5);
+				});
+				
+	var link = svg.append("svg:g").selectAll("line")
+				.data(graph.links)
+				.enter()
+				.append("line")
+				.attr("d", function(d){
+											
+					return line([
+								  {x: d.source.x, y: d.source.y}, 
+								  {x: d.source.x, y: d.source.y+20}, 
+								  {x: d.target.x, y: d.target.y+20}, 
+								  {x: d.target.x, y: d.target.y}
+								]);
+				})
+				.attr("class", "link")
+				.attr("shape-rendering", "auto")
+				.attr("marker-end", "url(#end)");
+				
+	var yScale = d3.scale.linear()
+		.range([0, height])
+		.domain(list);
+		
+	function creat_labels(){
+	
+		svg.append("g").selectAll("text")
+		   .data(list)
+		   .enter()
+		   .append("text")
+		   .text(function(d){
+				return d;
+		   })
+		   .attr("dy", ".35em")
+		   .attr("text-anchor", "end")
+		   .attr("x", function(d, i) {
+				return 100;
+		   })
+		   .attr("y", function(d, i) {
+				return 100 + i * 25;;
+		   })
+		   .attr("font-family", "sans-serif") 
+		   .attr("font-size", "12px");
+	}
+})
+
+</script>
+</body>
+</html>

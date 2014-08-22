@@ -1,0 +1,2887 @@
+{
+  "index-not-ndarray": [],
+  "master": [
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/b3e3bf12f815efd2ffc6cd1049977a7efb435e6f/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T23:36:10Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T23:36:10Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "message": "Merge pull request #5547 from aldanor/patch-1\n\nDOC: Fixing a good number of spelling mistakes in 0.13 release notes",
+        "tree": {
+          "sha": "ff398823697eed0be470f5b7dfb647577106e3a0",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/ff398823697eed0be470f5b7dfb647577106e3a0"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/b3e3bf12f815efd2ffc6cd1049977a7efb435e6f"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/b3e3bf12f815efd2ffc6cd1049977a7efb435e6f",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/5a3cf7a1103e000df45e29d7fe17bca95ec34954",
+          "sha": "5a3cf7a1103e000df45e29d7fe17bca95ec34954",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/5a3cf7a1103e000df45e29d7fe17bca95ec34954"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d",
+          "sha": "4ccd37e66c3bc937a7a6358533f6b9df26b34f9d",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d"
+        }
+      ],
+      "sha": "b3e3bf12f815efd2ffc6cd1049977a7efb435e6f",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/b3e3bf12f815efd2ffc6cd1049977a7efb435e6f"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/5a3cf7a1103e000df45e29d7fe17bca95ec34954/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T11:52:30Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T11:52:30Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "Merge pull request #5548 from y-p/doc_toclipboard\n\nDOC: mention new to_clipboard/paste into excel capability in release docs",
+        "tree": {
+          "sha": "0a0883aa3ed74b8b3f0591458852c7ad4ef092b6",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/0a0883aa3ed74b8b3f0591458852c7ad4ef092b6"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/5a3cf7a1103e000df45e29d7fe17bca95ec34954"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/5a3cf7a1103e000df45e29d7fe17bca95ec34954",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "sha": "2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00",
+          "sha": "db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00"
+        }
+      ],
+      "sha": "5a3cf7a1103e000df45e29d7fe17bca95ec34954",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/5a3cf7a1103e000df45e29d7fe17bca95ec34954"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T11:43:18Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T11:48:23Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "DOC: mention new to_clipboard/paste into excel capability",
+        "tree": {
+          "sha": "0a0883aa3ed74b8b3f0591458852c7ad4ef092b6",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/0a0883aa3ed74b8b3f0591458852c7ad4ef092b6"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "sha": "2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2"
+        }
+      ],
+      "sha": "db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/db8f26cb9d51ba0a79eec738e24e2f7b5eef4f00"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2418513",
+        "events_url": "https://api.github.com/users/aldanor/events{/privacy}",
+        "followers_url": "https://api.github.com/users/aldanor/followers",
+        "following_url": "https://api.github.com/users/aldanor/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldanor/gists{/gist_id}",
+        "gravatar_id": "e07a4201601ad4298203b843ab64b9e4",
+        "html_url": "https://github.com/aldanor",
+        "id": 2418513,
+        "login": "aldanor",
+        "organizations_url": "https://api.github.com/users/aldanor/orgs",
+        "received_events_url": "https://api.github.com/users/aldanor/received_events",
+        "repos_url": "https://api.github.com/users/aldanor/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/aldanor/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldanor/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/aldanor"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T11:11:12Z",
+          "email": "i.s.smirnov@gmail.com",
+          "name": "Ivan Smirnov"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T11:11:12Z",
+          "email": "i.s.smirnov@gmail.com",
+          "name": "Ivan Smirnov"
+        },
+        "message": "DOC: replace _prop_attributes with __finalize__()",
+        "tree": {
+          "sha": "945268dc5816edcacc8b7f590671c0583eca10c4",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/945268dc5816edcacc8b7f590671c0583eca10c4"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2418513",
+        "events_url": "https://api.github.com/users/aldanor/events{/privacy}",
+        "followers_url": "https://api.github.com/users/aldanor/followers",
+        "following_url": "https://api.github.com/users/aldanor/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldanor/gists{/gist_id}",
+        "gravatar_id": "e07a4201601ad4298203b843ab64b9e4",
+        "html_url": "https://github.com/aldanor",
+        "id": 2418513,
+        "login": "aldanor",
+        "organizations_url": "https://api.github.com/users/aldanor/orgs",
+        "received_events_url": "https://api.github.com/users/aldanor/received_events",
+        "repos_url": "https://api.github.com/users/aldanor/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/aldanor/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldanor/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/aldanor"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a",
+          "sha": "d5f588189c80cf6ed86bbb5068567e9c79d2ad0a",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a"
+        }
+      ],
+      "sha": "4ccd37e66c3bc937a7a6358533f6b9df26b34f9d",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/4ccd37e66c3bc937a7a6358533f6b9df26b34f9d"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2418513",
+        "events_url": "https://api.github.com/users/aldanor/events{/privacy}",
+        "followers_url": "https://api.github.com/users/aldanor/followers",
+        "following_url": "https://api.github.com/users/aldanor/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldanor/gists{/gist_id}",
+        "gravatar_id": "e07a4201601ad4298203b843ab64b9e4",
+        "html_url": "https://github.com/aldanor",
+        "id": 2418513,
+        "login": "aldanor",
+        "organizations_url": "https://api.github.com/users/aldanor/orgs",
+        "received_events_url": "https://api.github.com/users/aldanor/received_events",
+        "repos_url": "https://api.github.com/users/aldanor/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/aldanor/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldanor/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/aldanor"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T10:57:43Z",
+          "email": "i.s.smirnov@gmail.com",
+          "name": "Ivan Smirnov"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T10:57:43Z",
+          "email": "i.s.smirnov@gmail.com",
+          "name": "Ivan Smirnov"
+        },
+        "message": "DOC: Fixing a good number of spelling mistakes in 0.13 release notes",
+        "tree": {
+          "sha": "e2021ee172c6a910332b653d6d935cc227d6218e",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/e2021ee172c6a910332b653d6d935cc227d6218e"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/2418513",
+        "events_url": "https://api.github.com/users/aldanor/events{/privacy}",
+        "followers_url": "https://api.github.com/users/aldanor/followers",
+        "following_url": "https://api.github.com/users/aldanor/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aldanor/gists{/gist_id}",
+        "gravatar_id": "e07a4201601ad4298203b843ab64b9e4",
+        "html_url": "https://github.com/aldanor",
+        "id": 2418513,
+        "login": "aldanor",
+        "organizations_url": "https://api.github.com/users/aldanor/orgs",
+        "received_events_url": "https://api.github.com/users/aldanor/received_events",
+        "repos_url": "https://api.github.com/users/aldanor/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/aldanor/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aldanor/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/aldanor"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "sha": "2a14ed724d47926bad2c982afd5f8a736285c2b2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2"
+        }
+      ],
+      "sha": "d5f588189c80cf6ed86bbb5068567e9c79d2ad0a",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/d5f588189c80cf6ed86bbb5068567e9c79d2ad0a"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T01:49:54Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T01:49:54Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5544 from jreback/series_del\n\nBUG: Bug in delitem on a Series (GH5542)",
+        "tree": {
+          "sha": "5084940717a2e148d57a947b6835ff2ddb114589",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/5084940717a2e148d57a947b6835ff2ddb114589"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/2a14ed724d47926bad2c982afd5f8a736285c2b2",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+          "sha": "4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/4d0632bd852c1df746460cb0a4e6940e4d1c82ec"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/9e4765f618e1e79e4f292713555679d970051fa9",
+          "sha": "9e4765f618e1e79e4f292713555679d970051fa9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/9e4765f618e1e79e4f292713555679d970051fa9"
+        }
+      ],
+      "sha": "2a14ed724d47926bad2c982afd5f8a736285c2b2",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/2a14ed724d47926bad2c982afd5f8a736285c2b2"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/9e4765f618e1e79e4f292713555679d970051fa9/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-19T00:59:51Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-19T01:04:40Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "BUG: Bug in delitem on a Series (GH5542)",
+        "tree": {
+          "sha": "5084940717a2e148d57a947b6835ff2ddb114589",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/5084940717a2e148d57a947b6835ff2ddb114589"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/9e4765f618e1e79e4f292713555679d970051fa9"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/9e4765f618e1e79e4f292713555679d970051fa9",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+          "sha": "4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/4d0632bd852c1df746460cb0a4e6940e4d1c82ec"
+        }
+      ],
+      "sha": "9e4765f618e1e79e4f292713555679d970051fa9",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/9e4765f618e1e79e4f292713555679d970051fa9"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/4d0632bd852c1df746460cb0a4e6940e4d1c82ec/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-18T01:48:18Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-18T01:48:18Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "message": "Merge pull request #5540 from gdraps/cumcount-test-fix\n\nTST: fix cumcount test on 32-bit env",
+        "tree": {
+          "sha": "da2a5b66184ccba1ff01aca4e4bd3e1b5e515d35",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/da2a5b66184ccba1ff01aca4e4bd3e1b5e515d35"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/4d0632bd852c1df746460cb0a4e6940e4d1c82ec"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2e009d77dd62c095b08db46dba8db2d53811599f",
+          "sha": "2e009d77dd62c095b08db46dba8db2d53811599f",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2e009d77dd62c095b08db46dba8db2d53811599f"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/0be76b0c29672b2658abe45656f943563721a516",
+          "sha": "0be76b0c29672b2658abe45656f943563721a516",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/0be76b0c29672b2658abe45656f943563721a516"
+        }
+      ],
+      "sha": "4d0632bd852c1df746460cb0a4e6940e4d1c82ec",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/4d0632bd852c1df746460cb0a4e6940e4d1c82ec"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/746408",
+        "events_url": "https://api.github.com/users/gdraps/events{/privacy}",
+        "followers_url": "https://api.github.com/users/gdraps/followers",
+        "following_url": "https://api.github.com/users/gdraps/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gdraps/gists{/gist_id}",
+        "gravatar_id": "cb2009391875d8019a858f2d9d0fe391",
+        "html_url": "https://github.com/gdraps",
+        "id": 746408,
+        "login": "gdraps",
+        "organizations_url": "https://api.github.com/users/gdraps/orgs",
+        "received_events_url": "https://api.github.com/users/gdraps/received_events",
+        "repos_url": "https://api.github.com/users/gdraps/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/gdraps/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gdraps/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/gdraps"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/0be76b0c29672b2658abe45656f943563721a516/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-18T01:06:27Z",
+          "email": "drapala@gmail.com",
+          "name": "Garrett Drapala"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-18T01:06:27Z",
+          "email": "drapala@gmail.com",
+          "name": "Garrett Drapala"
+        },
+        "message": "TST: fix cumcount test on 32-bit env",
+        "tree": {
+          "sha": "da2a5b66184ccba1ff01aca4e4bd3e1b5e515d35",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/da2a5b66184ccba1ff01aca4e4bd3e1b5e515d35"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/0be76b0c29672b2658abe45656f943563721a516"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/746408",
+        "events_url": "https://api.github.com/users/gdraps/events{/privacy}",
+        "followers_url": "https://api.github.com/users/gdraps/followers",
+        "following_url": "https://api.github.com/users/gdraps/following{/other_user}",
+        "gists_url": "https://api.github.com/users/gdraps/gists{/gist_id}",
+        "gravatar_id": "cb2009391875d8019a858f2d9d0fe391",
+        "html_url": "https://github.com/gdraps",
+        "id": 746408,
+        "login": "gdraps",
+        "organizations_url": "https://api.github.com/users/gdraps/orgs",
+        "received_events_url": "https://api.github.com/users/gdraps/received_events",
+        "repos_url": "https://api.github.com/users/gdraps/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/gdraps/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/gdraps/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/gdraps"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/0be76b0c29672b2658abe45656f943563721a516",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2e009d77dd62c095b08db46dba8db2d53811599f",
+          "sha": "2e009d77dd62c095b08db46dba8db2d53811599f",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2e009d77dd62c095b08db46dba8db2d53811599f"
+        }
+      ],
+      "sha": "0be76b0c29672b2658abe45656f943563721a516",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/0be76b0c29672b2658abe45656f943563721a516"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/2e009d77dd62c095b08db46dba8db2d53811599f/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-17T15:00:14Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-17T15:00:14Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "message": "Merge pull request #5538 from neirbowj/fbsd_failing_tests\n\nTST: correctly predict locale setability",
+        "tree": {
+          "sha": "e1669a01b1f322af339fd31e2fe27988ad0d9db7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/e1669a01b1f322af339fd31e2fe27988ad0d9db7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/2e009d77dd62c095b08db46dba8db2d53811599f"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/2e009d77dd62c095b08db46dba8db2d53811599f",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "sha": "d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/c38258bfc364968296cb483d26bace2ff7472520",
+          "sha": "c38258bfc364968296cb483d26bace2ff7472520",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/c38258bfc364968296cb483d26bace2ff7472520"
+        }
+      ],
+      "sha": "2e009d77dd62c095b08db46dba8db2d53811599f",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/2e009d77dd62c095b08db46dba8db2d53811599f"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1879063",
+        "events_url": "https://api.github.com/users/neirbowj/events{/privacy}",
+        "followers_url": "https://api.github.com/users/neirbowj/followers",
+        "following_url": "https://api.github.com/users/neirbowj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/neirbowj/gists{/gist_id}",
+        "gravatar_id": "fb325c9f457e4148dc4852bb204dd578",
+        "html_url": "https://github.com/neirbowj",
+        "id": 1879063,
+        "login": "neirbowj",
+        "organizations_url": "https://api.github.com/users/neirbowj/orgs",
+        "received_events_url": "https://api.github.com/users/neirbowj/received_events",
+        "repos_url": "https://api.github.com/users/neirbowj/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/neirbowj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/neirbowj/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/neirbowj"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/c38258bfc364968296cb483d26bace2ff7472520/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-17T12:49:16Z",
+          "email": "john@saltant.com",
+          "name": "John W. O'Brien"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-17T12:49:16Z",
+          "email": "john@saltant.com",
+          "name": "John W. O'Brien"
+        },
+        "message": "TST: correctly predict locale setability\n\nDon't join the lang and encoding when performing the trial set, because\n\n    locale.setlocale(locale.LC_ALL, ('it_CH', 'utf-8'))\n\nsucceeds, but\n\n    locale.setlocale(locale.LC_ALL, 'it_CH.utf-8')\n\nthrows locale.Error.",
+        "tree": {
+          "sha": "e1669a01b1f322af339fd31e2fe27988ad0d9db7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/e1669a01b1f322af339fd31e2fe27988ad0d9db7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/c38258bfc364968296cb483d26bace2ff7472520"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1879063",
+        "events_url": "https://api.github.com/users/neirbowj/events{/privacy}",
+        "followers_url": "https://api.github.com/users/neirbowj/followers",
+        "following_url": "https://api.github.com/users/neirbowj/following{/other_user}",
+        "gists_url": "https://api.github.com/users/neirbowj/gists{/gist_id}",
+        "gravatar_id": "fb325c9f457e4148dc4852bb204dd578",
+        "html_url": "https://github.com/neirbowj",
+        "id": 1879063,
+        "login": "neirbowj",
+        "organizations_url": "https://api.github.com/users/neirbowj/orgs",
+        "received_events_url": "https://api.github.com/users/neirbowj/received_events",
+        "repos_url": "https://api.github.com/users/neirbowj/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/neirbowj/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/neirbowj/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/neirbowj"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/c38258bfc364968296cb483d26bace2ff7472520",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "sha": "d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9"
+        }
+      ],
+      "sha": "c38258bfc364968296cb483d26bace2ff7472520",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/c38258bfc364968296cb483d26bace2ff7472520"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/e8e773576b1922c2b2112936c0093349769d2c1c/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-15T00:18:16Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-17T05:57:32Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "message": "PERF faster head, tail and size groupby methods",
+        "tree": {
+          "sha": "2d612e6ff467aede187b3b08a9422384c5a420a3",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/2d612e6ff467aede187b3b08a9422384c5a420a3"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/e8e773576b1922c2b2112936c0093349769d2c1c"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/e8e773576b1922c2b2112936c0093349769d2c1c",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "sha": "d250d64a21c685d95ab61bf4761e81c4e71168d9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9"
+        }
+      ],
+      "sha": "e8e773576b1922c2b2112936c0093349769d2c1c",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/e8e773576b1922c2b2112936c0093349769d2c1c"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-17T00:42:29Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-17T00:46:30Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "message": "CLN: More autopep8",
+        "tree": {
+          "sha": "4b2da3a87d843ce30feaecd7588ba4fbecc99106",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/4b2da3a87d843ce30feaecd7588ba4fbecc99106"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/d250d64a21c685d95ab61bf4761e81c4e71168d9",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/822178e0d882c7a86df454c259980823ba830afd",
+          "sha": "822178e0d882c7a86df454c259980823ba830afd",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/822178e0d882c7a86df454c259980823ba830afd"
+        }
+      ],
+      "sha": "d250d64a21c685d95ab61bf4761e81c4e71168d9",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/d250d64a21c685d95ab61bf4761e81c4e71168d9"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/822178e0d882c7a86df454c259980823ba830afd/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-17T00:45:00Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-17T00:46:17Z",
+          "email": "jeffrey.tratner@gmail.com",
+          "name": "Jeff Tratner"
+        },
+        "message": "Merge pull request #5038 from alefnula/pep8\n\nCLN: PEP8 cleanup",
+        "tree": {
+          "sha": "02d037702d443bdbce2d8563cc2d5726f202e5a7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/02d037702d443bdbce2d8563cc2d5726f202e5a7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/822178e0d882c7a86df454c259980823ba830afd"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1598379",
+        "events_url": "https://api.github.com/users/jtratner/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jtratner/followers",
+        "following_url": "https://api.github.com/users/jtratner/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jtratner/gists{/gist_id}",
+        "gravatar_id": "c2d2fbaaa06894f36a35c9f7e1f4b180",
+        "html_url": "https://github.com/jtratner",
+        "id": 1598379,
+        "login": "jtratner",
+        "organizations_url": "https://api.github.com/users/jtratner/orgs",
+        "received_events_url": "https://api.github.com/users/jtratner/received_events",
+        "repos_url": "https://api.github.com/users/jtratner/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jtratner/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jtratner/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jtratner"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/822178e0d882c7a86df454c259980823ba830afd",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+          "sha": "4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/4718ffedece86bebe5dffca6cfdc12b9a018f8a4"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/a4a71f89bf473a84c2a45260acac675dfac83cb3",
+          "sha": "a4a71f89bf473a84c2a45260acac675dfac83cb3",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/a4a71f89bf473a84c2a45260acac675dfac83cb3"
+        }
+      ],
+      "sha": "822178e0d882c7a86df454c259980823ba830afd",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/822178e0d882c7a86df454c259980823ba830afd"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/188258",
+        "events_url": "https://api.github.com/users/alefnula/events{/privacy}",
+        "followers_url": "https://api.github.com/users/alefnula/followers",
+        "following_url": "https://api.github.com/users/alefnula/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alefnula/gists{/gist_id}",
+        "gravatar_id": "3a72b60a81fb6e164436524470a1b41d",
+        "html_url": "https://github.com/alefnula",
+        "id": 188258,
+        "login": "alefnula",
+        "organizations_url": "https://api.github.com/users/alefnula/orgs",
+        "received_events_url": "https://api.github.com/users/alefnula/received_events",
+        "repos_url": "https://api.github.com/users/alefnula/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/alefnula/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alefnula/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/alefnula"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/a4a71f89bf473a84c2a45260acac675dfac83cb3/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-16T02:05:51Z",
+          "email": "alefnula@gmail.com",
+          "name": "Viktor Kerkez"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-16T21:34:16Z",
+          "email": "alefnula@gmail.com",
+          "name": "Viktor Kerkez"
+        },
+        "message": "CLN: PEP8 cleanup",
+        "tree": {
+          "sha": "02d037702d443bdbce2d8563cc2d5726f202e5a7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/02d037702d443bdbce2d8563cc2d5726f202e5a7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/a4a71f89bf473a84c2a45260acac675dfac83cb3"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/188258",
+        "events_url": "https://api.github.com/users/alefnula/events{/privacy}",
+        "followers_url": "https://api.github.com/users/alefnula/followers",
+        "following_url": "https://api.github.com/users/alefnula/following{/other_user}",
+        "gists_url": "https://api.github.com/users/alefnula/gists{/gist_id}",
+        "gravatar_id": "3a72b60a81fb6e164436524470a1b41d",
+        "html_url": "https://github.com/alefnula",
+        "id": 188258,
+        "login": "alefnula",
+        "organizations_url": "https://api.github.com/users/alefnula/orgs",
+        "received_events_url": "https://api.github.com/users/alefnula/received_events",
+        "repos_url": "https://api.github.com/users/alefnula/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/alefnula/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/alefnula/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/alefnula"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/a4a71f89bf473a84c2a45260acac675dfac83cb3",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+          "sha": "4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/4718ffedece86bebe5dffca6cfdc12b9a018f8a4"
+        }
+      ],
+      "sha": "a4a71f89bf473a84c2a45260acac675dfac83cb3",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/a4a71f89bf473a84c2a45260acac675dfac83cb3"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/4718ffedece86bebe5dffca6cfdc12b9a018f8a4/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-16T19:13:47Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-16T19:13:47Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5529 from jreback/iloc_mi\n\nBUG: Bug in getitem with a multi-index and iloc (GH5528)",
+        "tree": {
+          "sha": "49fac08d82aff71b7cceb47e1ab37880ec7109df",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/49fac08d82aff71b7cceb47e1ab37880ec7109df"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/4718ffedece86bebe5dffca6cfdc12b9a018f8a4"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/34c0db8858d48957d6c1705a66ae6679552e79b9",
+          "sha": "34c0db8858d48957d6c1705a66ae6679552e79b9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/34c0db8858d48957d6c1705a66ae6679552e79b9"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/d0c7832705e262d27278775b6c1e9db3e38a91ec",
+          "sha": "d0c7832705e262d27278775b6c1e9db3e38a91ec",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/d0c7832705e262d27278775b6c1e9db3e38a91ec"
+        }
+      ],
+      "sha": "4718ffedece86bebe5dffca6cfdc12b9a018f8a4",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/4718ffedece86bebe5dffca6cfdc12b9a018f8a4"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/d0c7832705e262d27278775b6c1e9db3e38a91ec/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-16T17:24:16Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-16T18:28:26Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "BUG: Bug in getitem with a multi-index and iloc (GH5528)",
+        "tree": {
+          "sha": "49fac08d82aff71b7cceb47e1ab37880ec7109df",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/49fac08d82aff71b7cceb47e1ab37880ec7109df"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/d0c7832705e262d27278775b6c1e9db3e38a91ec"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/d0c7832705e262d27278775b6c1e9db3e38a91ec",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/34c0db8858d48957d6c1705a66ae6679552e79b9",
+          "sha": "34c0db8858d48957d6c1705a66ae6679552e79b9",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/34c0db8858d48957d6c1705a66ae6679552e79b9"
+        }
+      ],
+      "sha": "d0c7832705e262d27278775b6c1e9db3e38a91ec",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/d0c7832705e262d27278775b6c1e9db3e38a91ec"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/34c0db8858d48957d6c1705a66ae6679552e79b9/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-16T10:36:13Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-16T10:36:13Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "Merge pull request #5520 from invisibleroads/patch-2\n\nEnsure that we can get a commit number from git",
+        "tree": {
+          "sha": "8c54ac4a6a30462d99a7f611c2cec8bb7d0a97b1",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/8c54ac4a6a30462d99a7f611c2cec8bb7d0a97b1"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/34c0db8858d48957d6c1705a66ae6679552e79b9"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/34c0db8858d48957d6c1705a66ae6679552e79b9",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+          "sha": "c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/2d7514f61126e1eb8aef2e232a7a7b60a7697412",
+          "sha": "2d7514f61126e1eb8aef2e232a7a7b60a7697412",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/2d7514f61126e1eb8aef2e232a7a7b60a7697412"
+        }
+      ],
+      "sha": "34c0db8858d48957d6c1705a66ae6679552e79b9",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/34c0db8858d48957d6c1705a66ae6679552e79b9"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/266668",
+        "events_url": "https://api.github.com/users/invisibleroads/events{/privacy}",
+        "followers_url": "https://api.github.com/users/invisibleroads/followers",
+        "following_url": "https://api.github.com/users/invisibleroads/following{/other_user}",
+        "gists_url": "https://api.github.com/users/invisibleroads/gists{/gist_id}",
+        "gravatar_id": "718d90f9642377e5ad78fe2be1b67895",
+        "html_url": "https://github.com/invisibleroads",
+        "id": 266668,
+        "login": "invisibleroads",
+        "organizations_url": "https://api.github.com/users/invisibleroads/orgs",
+        "received_events_url": "https://api.github.com/users/invisibleroads/received_events",
+        "repos_url": "https://api.github.com/users/invisibleroads/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/invisibleroads/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/invisibleroads/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/invisibleroads"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/2d7514f61126e1eb8aef2e232a7a7b60a7697412/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-15T09:52:06Z",
+          "email": "rhh@crosscompute.com",
+          "name": "Roy Hyunjin Han"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-15T09:52:06Z",
+          "email": "rhh@crosscompute.com",
+          "name": "Roy Hyunjin Han"
+        },
+        "message": "Ensure that we can get a commit number from git\n\nCurrently, git describe fails with \"fatal: No names found, cannot describe anything.\"",
+        "tree": {
+          "sha": "8c54ac4a6a30462d99a7f611c2cec8bb7d0a97b1",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/8c54ac4a6a30462d99a7f611c2cec8bb7d0a97b1"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/2d7514f61126e1eb8aef2e232a7a7b60a7697412"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/266668",
+        "events_url": "https://api.github.com/users/invisibleroads/events{/privacy}",
+        "followers_url": "https://api.github.com/users/invisibleroads/followers",
+        "following_url": "https://api.github.com/users/invisibleroads/following{/other_user}",
+        "gists_url": "https://api.github.com/users/invisibleroads/gists{/gist_id}",
+        "gravatar_id": "718d90f9642377e5ad78fe2be1b67895",
+        "html_url": "https://github.com/invisibleroads",
+        "id": 266668,
+        "login": "invisibleroads",
+        "organizations_url": "https://api.github.com/users/invisibleroads/orgs",
+        "received_events_url": "https://api.github.com/users/invisibleroads/received_events",
+        "repos_url": "https://api.github.com/users/invisibleroads/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/invisibleroads/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/invisibleroads/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/invisibleroads"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/2d7514f61126e1eb8aef2e232a7a7b60a7697412",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+          "sha": "c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058"
+        }
+      ],
+      "sha": "2d7514f61126e1eb8aef2e232a7a7b60a7697412",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/2d7514f61126e1eb8aef2e232a7a7b60a7697412"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-14T22:04:00Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-14T22:04:00Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "message": "Merge pull request #5510 from hayd/groupby_cumcount\n\nENH add cumcount groupby method",
+        "tree": {
+          "sha": "401a19129aea210519cfde9978d67788204e36e8",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/401a19129aea210519cfde9978d67788204e36e8"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/0c30665bb91adfde3d491142ae01356a53c8ae50",
+          "sha": "0c30665bb91adfde3d491142ae01356a53c8ae50",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/0c30665bb91adfde3d491142ae01356a53c8ae50"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/b56479879bb4e0fccdb23497e2073c201481aad7",
+          "sha": "b56479879bb4e0fccdb23497e2073c201481aad7",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/b56479879bb4e0fccdb23497e2073c201481aad7"
+        }
+      ],
+      "sha": "c70882ab8d1b9805d3394a1c7c47ab7afc8c1058",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/c70882ab8d1b9805d3394a1c7c47ab7afc8c1058"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/b56479879bb4e0fccdb23497e2073c201481aad7/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-14T18:27:08Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-14T18:37:10Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "message": "DOC add cumcount example to groupby.rst",
+        "tree": {
+          "sha": "3709e56f268124961fd7bd3bd60426d7e6855830",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/3709e56f268124961fd7bd3bd60426d7e6855830"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/b56479879bb4e0fccdb23497e2073c201481aad7"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/b56479879bb4e0fccdb23497e2073c201481aad7",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d",
+          "sha": "83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d"
+        }
+      ],
+      "sha": "b56479879bb4e0fccdb23497e2073c201481aad7",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/b56479879bb4e0fccdb23497e2073c201481aad7"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-14T00:11:53Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-14T17:53:40Z",
+          "email": "andyhayden1@gmail.com",
+          "name": "Andy Hayden"
+        },
+        "message": "ENH add cumcount groupby method",
+        "tree": {
+          "sha": "6fb9c6b81fa815685b14b6d39eeaa2a5f45b7149",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/6fb9c6b81fa815685b14b6d39eeaa2a5f45b7149"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1931852",
+        "events_url": "https://api.github.com/users/hayd/events{/privacy}",
+        "followers_url": "https://api.github.com/users/hayd/followers",
+        "following_url": "https://api.github.com/users/hayd/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hayd/gists{/gist_id}",
+        "gravatar_id": "299cd56a93faa3cb5eec139f8da54782",
+        "html_url": "https://github.com/hayd",
+        "id": 1931852,
+        "login": "hayd",
+        "organizations_url": "https://api.github.com/users/hayd/orgs",
+        "received_events_url": "https://api.github.com/users/hayd/received_events",
+        "repos_url": "https://api.github.com/users/hayd/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/hayd/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hayd/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/hayd"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/705b677003da71585cea03e82429e98bdee0a9a2",
+          "sha": "705b677003da71585cea03e82429e98bdee0a9a2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/705b677003da71585cea03e82429e98bdee0a9a2"
+        }
+      ],
+      "sha": "83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/83386d8b4017d1c5eb8e1ceb6e8b6afa11b2283d"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/0c30665bb91adfde3d491142ae01356a53c8ae50/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-14T01:06:30Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-14T01:06:30Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5512 from jreback/indexing_bug\n\nBUG: Fixed various setitem with iterable that does not have a matching length to the indexer (GH5508)",
+        "tree": {
+          "sha": "b2b0dffe437750c799dac633a7b9c82bda617a35",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/b2b0dffe437750c799dac633a7b9c82bda617a35"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/0c30665bb91adfde3d491142ae01356a53c8ae50"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/0c30665bb91adfde3d491142ae01356a53c8ae50",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/705b677003da71585cea03e82429e98bdee0a9a2",
+          "sha": "705b677003da71585cea03e82429e98bdee0a9a2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/705b677003da71585cea03e82429e98bdee0a9a2"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33",
+          "sha": "9e70c101bb4b6a7af20f1a110a2bc1c54b866a33",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33"
+        }
+      ],
+      "sha": "0c30665bb91adfde3d491142ae01356a53c8ae50",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/0c30665bb91adfde3d491142ae01356a53c8ae50"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-14T00:28:40Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-14T00:43:16Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "BUG: Fixed various setitem with iterable that does not have a matching\n     length to the indexer (GH5508)",
+        "tree": {
+          "sha": "b2b0dffe437750c799dac633a7b9c82bda617a35",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/b2b0dffe437750c799dac633a7b9c82bda617a35"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/705b677003da71585cea03e82429e98bdee0a9a2",
+          "sha": "705b677003da71585cea03e82429e98bdee0a9a2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/705b677003da71585cea03e82429e98bdee0a9a2"
+        }
+      ],
+      "sha": "9e70c101bb4b6a7af20f1a110a2bc1c54b866a33",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/9e70c101bb4b6a7af20f1a110a2bc1c54b866a33"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/705b677003da71585cea03e82429e98bdee0a9a2/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-13T20:16:31Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-13T20:16:31Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "DOC: doc corrections basics.rst / io.rst",
+        "tree": {
+          "sha": "017025edf91bfa4ab202f5971154839e8efb1483",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/017025edf91bfa4ab202f5971154839e8efb1483"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/705b677003da71585cea03e82429e98bdee0a9a2"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/705b677003da71585cea03e82429e98bdee0a9a2",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/6a54af8fd97697b45c4119856568fbc364ba4e20",
+          "sha": "6a54af8fd97697b45c4119856568fbc364ba4e20",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/6a54af8fd97697b45c4119856568fbc364ba4e20"
+        }
+      ],
+      "sha": "705b677003da71585cea03e82429e98bdee0a9a2",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/705b677003da71585cea03e82429e98bdee0a9a2"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/6a54af8fd97697b45c4119856568fbc364ba4e20/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-13T19:53:52Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-13T19:53:52Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5507 from jreback/msgpack_bug\n\nBUG: bug in to_msgpack for timezone aware datetime index",
+        "tree": {
+          "sha": "280407551a20f24e012dbe571fb847de651290a7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/280407551a20f24e012dbe571fb847de651290a7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/6a54af8fd97697b45c4119856568fbc364ba4e20"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/6a54af8fd97697b45c4119856568fbc364ba4e20",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/3239b29ceb9def77a0b6939ff126b00848064b95",
+          "sha": "3239b29ceb9def77a0b6939ff126b00848064b95",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/3239b29ceb9def77a0b6939ff126b00848064b95"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/693a95734bdc02cb0a841f599e3e087629e7bcf1",
+          "sha": "693a95734bdc02cb0a841f599e3e087629e7bcf1",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/693a95734bdc02cb0a841f599e3e087629e7bcf1"
+        }
+      ],
+      "sha": "6a54af8fd97697b45c4119856568fbc364ba4e20",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/6a54af8fd97697b45c4119856568fbc364ba4e20"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/693a95734bdc02cb0a841f599e3e087629e7bcf1/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-13T18:47:31Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-13T19:36:05Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "BUG: bug in to_msgpack for timezone aware datetime index\nBUG: bug in to_msgpack for no freqstr datetime index (GH5506)\n\nTST: msgpack complex test comparisons fixed\n\nAPI: allow df.to_msgpack() to return a string (no need to specify None for the path_or_buf)",
+        "tree": {
+          "sha": "280407551a20f24e012dbe571fb847de651290a7",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/280407551a20f24e012dbe571fb847de651290a7"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/693a95734bdc02cb0a841f599e3e087629e7bcf1"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/693a95734bdc02cb0a841f599e3e087629e7bcf1",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/3239b29ceb9def77a0b6939ff126b00848064b95",
+          "sha": "3239b29ceb9def77a0b6939ff126b00848064b95",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/3239b29ceb9def77a0b6939ff126b00848064b95"
+        }
+      ],
+      "sha": "693a95734bdc02cb0a841f599e3e087629e7bcf1",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/693a95734bdc02cb0a841f599e3e087629e7bcf1"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/3239b29ceb9def77a0b6939ff126b00848064b95/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-13T14:13:45Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-13T14:13:45Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5498 from jreback/msgpack_perf\n\nPERF: msgpack encoding changes to use to/from string for speed boosts",
+        "tree": {
+          "sha": "fcaecd856008b22a23a3ea1b33ee73c785cf147d",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/fcaecd856008b22a23a3ea1b33ee73c785cf147d"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/3239b29ceb9def77a0b6939ff126b00848064b95"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/3239b29ceb9def77a0b6939ff126b00848064b95",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+          "sha": "da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/da07446bb923b5e6e1f6a27ffba6321223a68d9a"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/9bcdbd95e126f7d67f1731712b0b414f2fed5acb",
+          "sha": "9bcdbd95e126f7d67f1731712b0b414f2fed5acb",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/9bcdbd95e126f7d67f1731712b0b414f2fed5acb"
+        }
+      ],
+      "sha": "3239b29ceb9def77a0b6939ff126b00848064b95",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/3239b29ceb9def77a0b6939ff126b00848064b95"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/9bcdbd95e126f7d67f1731712b0b414f2fed5acb/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-12T23:20:53Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 1,
+        "committer": {
+          "date": "2013-11-12T23:32:11Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "ENH: allow msgpack to accept and return string-like objects in addition to files",
+        "tree": {
+          "sha": "fcaecd856008b22a23a3ea1b33ee73c785cf147d",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/fcaecd856008b22a23a3ea1b33ee73c785cf147d"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/9bcdbd95e126f7d67f1731712b0b414f2fed5acb"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/9bcdbd95e126f7d67f1731712b0b414f2fed5acb",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/cad683b6ab23e920c8ea095123e7d9298daf99a2",
+          "sha": "cad683b6ab23e920c8ea095123e7d9298daf99a2",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/cad683b6ab23e920c8ea095123e7d9298daf99a2"
+        }
+      ],
+      "sha": "9bcdbd95e126f7d67f1731712b0b414f2fed5acb",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/9bcdbd95e126f7d67f1731712b0b414f2fed5acb"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/cad683b6ab23e920c8ea095123e7d9298daf99a2/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-12T14:58:35Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-12T18:13:00Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "PERF: msgpack encoding changnes to use to/from string for speed boosts\nAPI: disable sparse structure encodings and unicode indexes",
+        "tree": {
+          "sha": "0b204eeb7cc36a291581576301283e720dba06ab",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/0b204eeb7cc36a291581576301283e720dba06ab"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/cad683b6ab23e920c8ea095123e7d9298daf99a2"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/cad683b6ab23e920c8ea095123e7d9298daf99a2",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+          "sha": "da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/da07446bb923b5e6e1f6a27ffba6321223a68d9a"
+        }
+      ],
+      "sha": "cad683b6ab23e920c8ea095123e7d9298daf99a2",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/cad683b6ab23e920c8ea095123e7d9298daf99a2"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/da07446bb923b5e6e1f6a27ffba6321223a68d9a/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-12T18:09:27Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-12T18:09:27Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5499 from jreback/hdf_args\n\nAPI/ENH: pass thru store creation arguments for HDFStore; can be used to support in-memory stores",
+        "tree": {
+          "sha": "41a0f09f0bcfd03295139c81804ec151b7fa9ae8",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/41a0f09f0bcfd03295139c81804ec151b7fa9ae8"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/da07446bb923b5e6e1f6a27ffba6321223a68d9a"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+          "sha": "46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/46008ecabe04e1ca9edabd26f89012b50c9eefd0"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/70d55cd885e8555b493c7f0dd7551536ad65977d",
+          "sha": "70d55cd885e8555b493c7f0dd7551536ad65977d",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/70d55cd885e8555b493c7f0dd7551536ad65977d"
+        }
+      ],
+      "sha": "da07446bb923b5e6e1f6a27ffba6321223a68d9a",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/da07446bb923b5e6e1f6a27ffba6321223a68d9a"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/70d55cd885e8555b493c7f0dd7551536ad65977d/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-12T17:24:02Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-12T17:47:30Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "API/ENH: pass thru store creation arguments for HDFStore; can be used to support in-memory stores",
+        "tree": {
+          "sha": "41a0f09f0bcfd03295139c81804ec151b7fa9ae8",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/41a0f09f0bcfd03295139c81804ec151b7fa9ae8"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/70d55cd885e8555b493c7f0dd7551536ad65977d"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/70d55cd885e8555b493c7f0dd7551536ad65977d",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+          "sha": "46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/46008ecabe04e1ca9edabd26f89012b50c9eefd0"
+        }
+      ],
+      "sha": "70d55cd885e8555b493c7f0dd7551536ad65977d",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/70d55cd885e8555b493c7f0dd7551536ad65977d"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/46008ecabe04e1ca9edabd26f89012b50c9eefd0/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-11T20:30:30Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-11T20:30:30Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "DOC: add cookbook entry",
+        "tree": {
+          "sha": "17d7c355e782b5c238fbd48bdec7f9482847fda6",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/17d7c355e782b5c238fbd48bdec7f9482847fda6"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/46008ecabe04e1ca9edabd26f89012b50c9eefd0"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/37373720ecd81a796ca8b78f7e488c99befedbf7",
+          "sha": "37373720ecd81a796ca8b78f7e488c99befedbf7",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/37373720ecd81a796ca8b78f7e488c99befedbf7"
+        }
+      ],
+      "sha": "46008ecabe04e1ca9edabd26f89012b50c9eefd0",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/46008ecabe04e1ca9edabd26f89012b50c9eefd0"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/37373720ecd81a796ca8b78f7e488c99befedbf7/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T21:52:52Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T21:52:52Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "BUG: print_versions return outside function",
+        "tree": {
+          "sha": "9485984b067adc29a0771fbf3607d7a0d51dbe03",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/9485984b067adc29a0771fbf3607d7a0d51dbe03"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/37373720ecd81a796ca8b78f7e488c99befedbf7"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/37373720ecd81a796ca8b78f7e488c99befedbf7",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/5f84c40bdd1003637404bd400bcc778d1f8cbf1c",
+          "sha": "5f84c40bdd1003637404bd400bcc778d1f8cbf1c",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/5f84c40bdd1003637404bd400bcc778d1f8cbf1c"
+        }
+      ],
+      "sha": "37373720ecd81a796ca8b78f7e488c99befedbf7",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/37373720ecd81a796ca8b78f7e488c99befedbf7"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/5f84c40bdd1003637404bd400bcc778d1f8cbf1c/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T21:48:36Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T21:48:36Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "Merge pull request #5486 from y-p/PR_pr_ver_fixes\n\nPr pr ver fixes",
+        "tree": {
+          "sha": "7062993c0209e15f4784f10681a930bf530d2c27",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/7062993c0209e15f4784f10681a930bf530d2c27"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/5f84c40bdd1003637404bd400bcc778d1f8cbf1c"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/5f84c40bdd1003637404bd400bcc778d1f8cbf1c",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/1804bc3e5d95299b79ce3a1f306835c832d67e94",
+          "sha": "1804bc3e5d95299b79ce3a1f306835c832d67e94",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/1804bc3e5d95299b79ce3a1f306835c832d67e94"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/3dff453a1f15caa138071c547717f05824bd3e5b",
+          "sha": "3dff453a1f15caa138071c547717f05824bd3e5b",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/3dff453a1f15caa138071c547717f05824bd3e5b"
+        }
+      ],
+      "sha": "5f84c40bdd1003637404bd400bcc778d1f8cbf1c",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/5f84c40bdd1003637404bd400bcc778d1f8cbf1c"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/3dff453a1f15caa138071c547717f05824bd3e5b/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T21:20:27Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T21:20:49Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "BUG: print_versions uses path python rather then the invoking python",
+        "tree": {
+          "sha": "7062993c0209e15f4784f10681a930bf530d2c27",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/7062993c0209e15f4784f10681a930bf530d2c27"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/3dff453a1f15caa138071c547717f05824bd3e5b"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/3dff453a1f15caa138071c547717f05824bd3e5b",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/5b38f390336ece39e9bc932aa763556ac0187a18",
+          "sha": "5b38f390336ece39e9bc932aa763556ac0187a18",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/5b38f390336ece39e9bc932aa763556ac0187a18"
+        }
+      ],
+      "sha": "3dff453a1f15caa138071c547717f05824bd3e5b",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/3dff453a1f15caa138071c547717f05824bd3e5b"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/5b38f390336ece39e9bc932aa763556ac0187a18/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T21:01:32Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T21:01:54Z",
+          "email": "yoval@gmx.com",
+          "name": "y-p"
+        },
+        "message": "BUG: fix path reolution in print_versions.py",
+        "tree": {
+          "sha": "660b88af80c301670fa874bfec51b768da0535ef",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/660b88af80c301670fa874bfec51b768da0535ef"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/5b38f390336ece39e9bc932aa763556ac0187a18"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/1820866",
+        "events_url": "https://api.github.com/users/y-p/events{/privacy}",
+        "followers_url": "https://api.github.com/users/y-p/followers",
+        "following_url": "https://api.github.com/users/y-p/following{/other_user}",
+        "gists_url": "https://api.github.com/users/y-p/gists{/gist_id}",
+        "gravatar_id": null,
+        "html_url": "https://github.com/y-p",
+        "id": 1820866,
+        "login": "y-p",
+        "organizations_url": "https://api.github.com/users/y-p/orgs",
+        "received_events_url": "https://api.github.com/users/y-p/received_events",
+        "repos_url": "https://api.github.com/users/y-p/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/y-p/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/y-p/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/y-p"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/5b38f390336ece39e9bc932aa763556ac0187a18",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/1804bc3e5d95299b79ce3a1f306835c832d67e94",
+          "sha": "1804bc3e5d95299b79ce3a1f306835c832d67e94",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/1804bc3e5d95299b79ce3a1f306835c832d67e94"
+        }
+      ],
+      "sha": "5b38f390336ece39e9bc932aa763556ac0187a18",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/5b38f390336ece39e9bc932aa763556ac0187a18"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/1804bc3e5d95299b79ce3a1f306835c832d67e94/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T18:47:39Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T18:47:39Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5482 from jreback/infer_fix\n\nPERF: perf regression with mixed-type ops using numexpr (GH5481)",
+        "tree": {
+          "sha": "fb24ea88b4acde51f9c0ce1e404d456d9fc00630",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/fb24ea88b4acde51f9c0ce1e404d456d9fc00630"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/1804bc3e5d95299b79ce3a1f306835c832d67e94"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/1804bc3e5d95299b79ce3a1f306835c832d67e94",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/9e2c3d69e49d51ed5ffd50e738054659a299f464",
+          "sha": "9e2c3d69e49d51ed5ffd50e738054659a299f464",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/9e2c3d69e49d51ed5ffd50e738054659a299f464"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/c4f8c544fda3f32ebd0df898695b2571813b99d3",
+          "sha": "c4f8c544fda3f32ebd0df898695b2571813b99d3",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/c4f8c544fda3f32ebd0df898695b2571813b99d3"
+        }
+      ],
+      "sha": "1804bc3e5d95299b79ce3a1f306835c832d67e94",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/1804bc3e5d95299b79ce3a1f306835c832d67e94"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/c4f8c544fda3f32ebd0df898695b2571813b99d3/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-10T17:39:14Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-10T17:39:14Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "PERF: perf regression with mixed-type ops using numexpr (GH5481)\nBUG: non-unique ops not aligning correctly",
+        "tree": {
+          "sha": "fb24ea88b4acde51f9c0ce1e404d456d9fc00630",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/fb24ea88b4acde51f9c0ce1e404d456d9fc00630"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/c4f8c544fda3f32ebd0df898695b2571813b99d3"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/c4f8c544fda3f32ebd0df898695b2571813b99d3",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/9e2c3d69e49d51ed5ffd50e738054659a299f464",
+          "sha": "9e2c3d69e49d51ed5ffd50e738054659a299f464",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/9e2c3d69e49d51ed5ffd50e738054659a299f464"
+        }
+      ],
+      "sha": "c4f8c544fda3f32ebd0df898695b2571813b99d3",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/c4f8c544fda3f32ebd0df898695b2571813b99d3"
+    },
+    {
+      "author": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "comments_url": "https://api.github.com/repos/pydata/pandas/commits/9e2c3d69e49d51ed5ffd50e738054659a299f464/comments",
+      "commit": {
+        "author": {
+          "date": "2013-11-09T01:56:27Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "comment_count": 0,
+        "committer": {
+          "date": "2013-11-09T01:56:27Z",
+          "email": "jeff@reback.net",
+          "name": "jreback"
+        },
+        "message": "Merge pull request #5477 from jreback/is_copy_bug\n\nAPI: make sure _is_copy on NDFrame is always available (GH5475)",
+        "tree": {
+          "sha": "4ec3f1cce0d261409b9dcc566140068c44758084",
+          "url": "https://api.github.com/repos/pydata/pandas/git/trees/4ec3f1cce0d261409b9dcc566140068c44758084"
+        },
+        "url": "https://api.github.com/repos/pydata/pandas/git/commits/9e2c3d69e49d51ed5ffd50e738054659a299f464"
+      },
+      "committer": {
+        "avatar_url": "https://avatars.githubusercontent.com/u/953992",
+        "events_url": "https://api.github.com/users/jreback/events{/privacy}",
+        "followers_url": "https://api.github.com/users/jreback/followers",
+        "following_url": "https://api.github.com/users/jreback/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jreback/gists{/gist_id}",
+        "gravatar_id": "b2833d485728ee2f603802242ebc9826",
+        "html_url": "https://github.com/jreback",
+        "id": 953992,
+        "login": "jreback",
+        "organizations_url": "https://api.github.com/users/jreback/orgs",
+        "received_events_url": "https://api.github.com/users/jreback/received_events",
+        "repos_url": "https://api.github.com/users/jreback/repos",
+        "site_admin": false,
+        "starred_url": "https://api.github.com/users/jreback/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jreback/subscriptions",
+        "type": "User",
+        "url": "https://api.github.com/users/jreback"
+      },
+      "html_url": "https://github.com/pydata/pandas/commit/9e2c3d69e49d51ed5ffd50e738054659a299f464",
+      "parents": [
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/e684bdc6c279d576a7dfe5c39ab184c908b73f6e",
+          "sha": "e684bdc6c279d576a7dfe5c39ab184c908b73f6e",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/e684bdc6c279d576a7dfe5c39ab184c908b73f6e"
+        },
+        {
+          "html_url": "https://github.com/pydata/pandas/commit/11947752f63efd16ee74ec15812981d7cfe9e697",
+          "sha": "11947752f63efd16ee74ec15812981d7cfe9e697",
+          "url": "https://api.github.com/repos/pydata/pandas/commits/11947752f63efd16ee74ec15812981d7cfe9e697"
+        }
+      ],
+      "sha": "9e2c3d69e49d51ed5ffd50e738054659a299f464",
+      "url": "https://api.github.com/repos/pydata/pandas/commits/9e2c3d69e49d51ed5ffd50e738054659a299f464"
+    }
+  ],
+  "range-index": [],
+  "sql": []
+}
