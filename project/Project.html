@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project</title>
+</head>
+	<ul>
+		<li><a href="https://googledrive.com/host/0B9k6cikxYpoBUVRQeWZlNU44bGM/Project.html"> Visualisation </a></li>
+		<li><a href="https://docs.google.com/document/d/1fgHq42WUvYQ14jfmMRtVjI6X24rPcUFP7IzguJHvTd8/edit"> Process Book </a></li>
+		<li><a href="https://www.youtube.com/watch?v=FWdVFdXVpfA"> Video </a></li>
+	</ul>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<style>
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li {
+	float:left;
+	font-weight: bold;
+	color: #fff;
+	font-size: 24px;
+}
+
+a:link,a:visited {
+	width: 120px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #98bf21;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover,a:active {
+	background-color:#7A991A;
+}
+
+form {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+	height: 760px;
+}
+	
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 98%;
+	margin: auto;
+}
+
+.node {
+	border: solid 1px white;
+	font: 7.5px sans-serif;
+	line-height: 12px;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 2px;
+}
+
+#slider { 
+	top: 20px;
+	width: 700px;
+	height: 10px;
+	margin: 20px;
+	cursor: pointer;
+	left: 40px;
+}
+
+#counties {
+	fill: none;
+	stroke: #333;
+	stroke-width: 0.25px;
+	cursor: pointer;
+}
+	
+#state-borders {
+	fill: none;
+	stroke: #333;
+	stroke-width: 1.5px;
+	stroke-linejoin: round;
+}
+
+#states .active {
+	stroke-width: 1.0px;
+}
+	
+table {
+	border-style:solid;
+	border-width: 1.0px;
+	position: absolute;
+}
+
+.axis {
+	font: 10px sans-serif;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.axis .domain {
+	fill: none;
+	stroke: #000;
+	stroke-opacity: .3;
+	stroke-width: 10px;
+	stroke-linecap: round;
+}
+
+.axis .halo {
+	fill: none;
+	stroke: #ddd;
+	stroke-width: 8px;
+	stroke-linecap: round;
+}
+
+.button {
+    border:1px #245ec6 solid;
+}
+
+.field_set {
+	top: 20px;
+	position: relative;
+	left: 100px;
+	border: none;
+}
+
+#tree_map {
+	top: 100px;
+	border-style: solid;
+	border-width: 1.0px;
+	position: relative;
+}
+
+#drop_down {
+	bottom: 125px; 
+	left: 40px;
+	position:absolute;
+}
+
+select {
+    border-style: solid;
+	border-width: 2.0px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 500px;
+    *background: #58B14C;
+}
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px #CCCCCC;
+}
+
+.sidecar {
+    position: absolute;
+    top: 50px;
+    width: 100px;
+    height: 20px;
+}
+
+</style>
+
+<table>	
+    <tr>
+		<td>				
+			<form>
+				<header>
+					<h1>Elasticity in U.S. Elections.</h1>
+				</header>
+				<div id="vis"></div>
+				<fieldset class="field_set">
+					<div id="radio1">
+						<input type="radio" id="general_election" name="project" checked="checked">
+						<label for="general_election">General Election</label>	 
+						<input type="radio" id="democratic_party" name="project">
+						<label for="democratic_party">Democratic Party</label>	 
+						<input type="radio" id="republican_party" name="project">
+						<label for="republican_party">Republican Party</label>
+					</div>
+				</fieldset>
+				<div id="slider"></div>
+			</form>
+		</td>
+	</tr>
+</table>
+
+<body>
+	<script src="data/libs/d3.js"></script>
+	<script src="data/libs/queue.js"></script>
+	<script src="data/libs/topojson.js"></script>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="Chlorophet.js"></script>
+<script>
+
+</script>
+</body>
+</html>
