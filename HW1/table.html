@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>CS171 Homework 1</title>
+	<style type="text/css">
+	/* YOUR CSS */
+	caption, td, th{
+		padding: 1px 4px;
+		border: 1px black solid;
+	}
+	h1{
+		font-weight: bold;
+		color: #0000FF;
+		font-size: 25px;
+	}
+	th:hover.ascending{
+		cursor: s-resize;
+	}
+	th:hover.descending{
+		cursor: n-resize;
+	}
+	</style>
+</head>
+<body>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script>
+	window.onload = function()
+	{
+		d3.text("unemp_states_us_nov_2013.tsv", function(error, data){
+		
+		var data = d3.tsv.parseRows(data);
+		
+		var column = data.shift();
+		
+		var h1 = d3.select("body")
+			.append("h1")
+			.text("Unemployment Rates for States");
+		
+		var table = d3.select("body")
+			.append("table")
+			.style("border-collapse", "collapse")   
+			.style("border", "1px black solid"),
+			caption = table.append("caption"),
+			thead = table.append("thead"),
+			tbody = table.append("tbody");
+						
+		// add the caption
+		caption.attr("align", "center")
+			.html("Unemployment Rates for States" + "</br>" + "Monthly Rankings" + "</br>" + "Seasonally Adjusted Dec. 2013 <sup>p</sup>");
+		
+		// append the header row
+		thead.append("tr")
+			.selectAll("th")
+			.data(column)
+			.enter()
+			.append("th")
+			.attr("class", function(d, i){
+				if (i==1||i==2){
+					return  "ascending"}
+				else{
+					return  "null"}
+			})
+			.attr("align", "center")
+				.text(function(column){
+					return column;
+				});
+		
+		// create a row for each object in the data
+		var rows = tbody.selectAll("tr")
+			.data(data)
+			.enter()
+			.append("tr")
+			.sort(function(a, b){
+				return d3.ascending(parseFloat(a[2]), parseFloat(b[2])) || d3.ascending(a[1], b[1]);
+			})
+			.style("background-color", function(d, i){
+				return i%2 == 0 ? "lightgray" : "white";
+			})
+			.on("mouseover", function(d, i){
+				d3.select(this).style("background-color", "yellow");
+			})
+			.on("mouseout", function(d, i){
+				d3.select(this).style("background-color", function(e, j){
+					return i%2 == 0 ? "lightgray" : "white";
+				})
+			});
+
+		// create a cell in each row for each column
+		var cells = rows.selectAll("td")
+			.data(function(row){
+				return d3.range(Object.keys(row).length).map(function(column, i) {
+					return row[Object.keys(row)[i]];
+				})
+			})
+			.enter()
+			.append("td")
+			.text(function(d){
+				return d;
+			})
+			.attr("align", function(d, i){
+				return i==1 ? "left" : "center"
+			})
+			.attr("class", function(d, i){
+				return "col_" + i; 
+			})
+			.on("mouseover", function(d, i){
+				d3.selectAll("td.col_" + i)
+					.style("background-color", "yellow");
+			})
+			.on("mouseout", function(d, i){
+				if(i!=2){
+					d3.selectAll("td.col_" + i)
+						.style("background-color", null);
+					}
+				else{
+					d3.selectAll("td.col_2")
+						.style("background-color", function(d, i){
+							return color(parseFloat(d));
+					})
+				}				
+			})
+			
+		var min_rate = d3.min(data, function(d){ return d[2] });
+		var max_rate = d3.max(data, function(d) { return d[2] });
+					
+		var color = d3.scale.linear()
+			.domain([min_rate, max_rate])
+			.interpolate(d3.interpolateRgb)
+			.range(["red", "silver"]);
+				
+		d3.selectAll("td.col_2")
+			.style("background-color", function(d, i){
+				return color(parseFloat(d));
+			})
+						
+		d3.selectAll("tr").insert("td").append("svg")
+		   .attr("width", 100)
+		   .attr("height", 10)
+		   .append("rect")
+		   .attr("height", 10)
+		   .attr("fill", "blue")
+		   .attr("class", "col_4")
+		   .attr("width", function(d, i){
+				return i != 0 ? parseFloat(d[2]*10) : 0; 
+			});
+			
+		d3.selectAll("thead").select("td")
+			.remove();
+			
+		d3.selectAll("thead").select("tr")
+			.append("th")
+			.attr("class", "ascending")
+			.attr("align", "center")
+			.text("Chart")
+			
+		// Sort functionality for State		
+		thead.selectAll("tr")
+			d3.select("th:nth-child(2)").on("click", function(d, i){
+				if(d3.select("th:nth-child(2)").attr("class")=="ascending"){
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.ascending(a[1], b[1])
+					})
+					d3.select("th:nth-child(2)").attr("class", "descending")
+				}
+				else{
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.descending(a[1], b[1])
+					})
+					d3.select("th:nth-child(2)").attr("class", "ascending")
+				}
+				tbody.selectAll("tr").style("background-color", function(d, i){
+					console.log(d, i)
+					return i%2 == 0 ? "lightgray" : "white";
+				})
+			});
+
+		// Sort functionality for Rate					
+		thead.selectAll("tr")
+			d3.select("th:nth-child(3)").on("click", function(d, i){
+				if(d3.select("th:nth-child(3)").attr("class")=="ascending"){
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.ascending(parseFloat(a[2]), parseFloat(b[2])) || d3.ascending(a[1], b[1]);
+					})
+					d3.select("th:nth-child(3)").attr("class", "descending")
+				}
+				else{
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.descending(parseFloat(a[2]), parseFloat(b[2])) || d3.descending(a[1], b[1]);
+					})
+					d3.select("th:nth-child(3)").attr("class", "ascending")
+				}
+				tbody.selectAll("tr").style("background-color", function(d, i){
+					return i%2 == 0 ? "lightgray" : "white";
+				})
+			});
+
+		// Sort functionality for Chart					
+		thead.selectAll("tr")
+			d3.select("th:nth-child(4)").on("click", function(d, i){
+				if(d3.select("th:nth-child(4)").attr("class")=="ascending"){
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.ascending(parseFloat(a[2]), parseFloat(b[2])) || d3.ascending(a[1], b[1]);
+					})
+					d3.select("th:nth-child(4)").attr("class", "descending")
+				}
+				else{
+					tbody.selectAll("tr").sort(function(a, b){
+						return d3.descending(parseFloat(a[2]), parseFloat(b[2])) || d3.descending(a[1], b[1]);
+					})
+					d3.select("th:nth-child(4)").attr("class", "ascending")
+				}
+				tbody.selectAll("tr").style("background-color", function(d, i){
+					return i%2 == 0 ? "lightgray" : "white";
+				})
+			})
+		});
+	}
+	</script>
+</body>
+</html>
