@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script type="text/javascript" src="../libs/jquery-1.11.0.min.js"></script>
+<script src="../libs/FileSaver.js"></script>
+<div id="vis"></div>
+<script>
+
+var color = d3.scale.category10();
+
+var timeParser = d3.time.format("%X %p");
+
+d3.json("../data/allData2003_2004.json", function(error, data){
+	
+	var usaf_id_aggregateMap = {};
+	
+	for (usaf_id in data){
+		
+		var sum_station = 0;
+		
+		var hourly_aggregateMap = {};
+		
+		data[usaf_id].forEach(function(d){
+		
+			sum_station = sum_station + d.value;
+		
+			var time = timeParser(new Date(d.date));
+						
+			var hourly_total = hourly_aggregateMap[time];
+			
+			if (hourly_total == undefined)
+				hourly_total = 0;
+				
+			hourly_total = hourly_total + d.value;
+			
+			hourly_aggregateMap[time] = hourly_total
+		});
+		
+		var usaf_id_list = usaf_id_aggregateMap[usaf_id];
+		
+		if(usaf_id_list == undefined){
+			usaf_id_list = [];
+		}
+		
+		usaf_id_list = {
+			"sum": sum_station,
+			"hourly" : hourly_aggregateMap
+		};
+		
+		usaf_id_aggregateMap[usaf_id] = usaf_id_list;
+	}
+	
+    saveToFile(usaf_id_aggregateMap, "reducedMonthStationHour2003_2004.json")
+})
+
+var saveToFile = function(object, filename){
+
+	var blob, blobText;
+
+	blobText = [JSON.stringify(object)];
+
+	blob = new Blob(blobText, {
+		type: "text/plain;charset=utf-8"
+	});
+
+	saveAs(blob, filename);    
+}
+
+</script>
+</body>
+</html>
