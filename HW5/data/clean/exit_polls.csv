@@ -1,0 +1,29 @@
+Demographic,Democratic,Republican
+Men,45,52
+Women,55,44
+White,39,59
+Black,93,6
+Hispanic,71,27
+Other,73,26
+18-29,60,37
+30-44,52,45
+45-64,47,51
+65 & over,44,56
+"less than $50,000",60,38
+"$50,000-90,000",46,52
+"$100,000 & over",44,54
+Some HS,64,35
+HS graduate,51,48
+Some college,49,48
+College graduate,47,51
+Postgraduate study,55,42
+Democratic,92,7
+Republican,6,93
+Independent,45,50
+Liberal,86,11
+Moderate,56,41
+Conservative,17,82
+Economy,47,51
+Budget deficit,32,66
+Foreign policy,56,33
+Health care,75,24
