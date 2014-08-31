@@ -1,5 +1,3 @@
-Noel Namai 50853403 noelnamai@fas.harvard.edu
-
 # CS 171 Homework 0
 
 **Due Thursday January 30th 2014 11:59 pm.**
